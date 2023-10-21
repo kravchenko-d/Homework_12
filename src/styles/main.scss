@@ -1,0 +1,25 @@
+#root {
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+
+    > aside {
+        > ul {
+            text-align: left;
+            padding: 0 16px;
+            margin: 0 16px;
+        }
+    }
+}
+
+div {
+    text-align: justify;
+    padding: 4px 32px;
+    > h1 {
+        margin: 16px;
+    }
+}
